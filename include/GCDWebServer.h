@@ -37,7 +37,6 @@
 #import "GCDWebServerFunctions.h"
 #import "GCDWebServerHTTPStatusCodes.h"
 #import "GCDWebServerMultiPartFormRequest.h"
-#import "GCDWebServerPrivate.h"
 #import "GCDWebServerStreamedResponse.h"
 #import "GCDWebServerURLEncodedFormRequest.h"
 
