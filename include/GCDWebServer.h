@@ -29,6 +29,16 @@
 
 #import "GCDWebServerRequest.h"
 #import "GCDWebServerResponse.h"
+#import "GCDWebServerDataRequest.h"
+#import "GCDWebServerDataResponse.h"
+#import "GCDWebServerErrorResponse.h"
+#import "GCDWebServerFileRequest.h"
+#import "GCDWebServerFileResponse.h"
+#import "GCDWebServerFunctions.h"
+#import "GCDWebServerHTTPStatusCodes.h"
+#import "GCDWebServerMultiPartFormRequest.h"
+#import "GCDWebServerStreamedResponse.h"
+#import "GCDWebServerURLEncodedFormRequest.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
