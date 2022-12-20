@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
 
 import PackageDescription
 
@@ -21,7 +21,11 @@ let package = Package(
 			dependencies: [],
 			path: ".",
 			exclude: ["README.md"],
-			sources: ["Core", "Requests", "Responses"],
-			publicHeadersPath: "include")
+			sources: ["Core", "Requests", "Responses", "private"],
+			publicHeadersPath: "include",
+			cxxSettings: [
+				.headerSearchPath("./private")
+			]
+		)
 	]
 )

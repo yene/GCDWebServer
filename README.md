@@ -3,9 +3,10 @@ based on [swisspol/GCDWebServer](https://github.com/swisspol/GCDWebServer).
 
 > GCDWebServer is a modern and lightweight GCD based HTTP 1.1 server designed to be embedded in iOS, macOS & tvOS apps.
 
-## Hello World Example
-Open File > Add Package and
-Paste the URL into top right search `https://github.com/yene/GCDWebServer`
+## Using it
+1. Open File > Add Package
+1. Paste the URL into top right search `https://github.com/yene/GCDWebServer`
+1. Extend your project, for example start the server in your `didFinishLaunchingWithOptions`
 
 ```Swift
 import UIKit
