@@ -22,6 +22,9 @@ let package = Package(
 			path: ".",
 			exclude: ["README.md"],
 			sources: ["Core", "Requests", "Responses", "private"],
+            resources: [
+                .copy("PrivacyInfo.xcprivacy")
+            ],
 			publicHeadersPath: "include",
 			cxxSettings: [
 				.headerSearchPath("./private")
